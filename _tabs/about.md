@@ -13,7 +13,7 @@ title: About
 </section>
 
 
-## 💡 My Skills
+## 💡My Skills
 
 - Website, Apps, UI/UX, and Database Design & Development
 - Graphics Design (Adobe Illustrator, Photoshop)
@@ -36,10 +36,8 @@ Throughout my career and studies, I have applied my skills to achieve meaningful
 
 ## 🖼️ Portfolio Gallery
 
-Here are some highlights of my creative and technical work. More coming soon!
+<i>Here are some highlights of my creative and technical work. More coming soon!
 
 <div class="gallery">
 	<img src="/assets/img/illustrator-design1.svg" alt="Adobe Illustrator Design">
 </div>
-
-
