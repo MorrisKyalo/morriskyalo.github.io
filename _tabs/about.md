@@ -40,9 +40,6 @@ Here are some highlights of my creative and technical work. More coming soon!
 
 <div class="gallery">
 	<img src="/assets/img/illustrator-design1.svg" alt="Adobe Illustrator Design">
-	<img src="/assets/img/website-screenshot1.svg" alt="Website Project Screenshot">
-	<img src="/assets/img/illustrator-design2.svg" alt="Adobe Illustrator Design">
-	<img src="/assets/img/website-screenshot2.svg" alt="Website Project Screenshot">
 </div>
 
 
