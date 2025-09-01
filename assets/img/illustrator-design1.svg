@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#00b4d8"/>
+      <stop offset="1" stop-color="#0077b6"/>
+    </linearGradient>
+    <style>
+      .bg{fill:url(#g1)}
+      .card{fill:rgba(255,255,255,0.06)}
+      .title{font:700 48px/1.1 sans-serif; fill:white}
+      .sub{font:400 20px/1.2 sans-serif; fill:rgba(255,255,255,0.9)}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="800" rx="24"/>
+  <rect x="60" y="80" width="1080" height="560" rx="16" class="card"/>
+  <g transform="translate(120,160)">
+    <text class="title">Illustrator</text>
+    <text class="sub" y="64">Vector branding sample</text>
+    <g transform="translate(0,120)">
+      <rect x="0" y="0" width="220" height="140" rx="8" fill="#fff" opacity="0.12"/>
+      <rect x="260" y="0" width="220" height="140" rx="8" fill="#fff" opacity="0.12"/>
+      <rect x="520" y="0" width="220" height="140" rx="8" fill="#fff" opacity="0.12"/>
+    </g>
+  </g>
+</svg>

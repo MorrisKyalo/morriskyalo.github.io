@@ -1,0 +1,26 @@
+/* Theme-safe about page styles (use variables from theme if available) */
+:root { --about-max-width: 980px; }
+
+.about-page { max-width: var(--about-max-width); margin: 1.5rem auto; padding: 0 1rem; }
+.about-hero { padding: 1.75rem 1rem; border-radius: 12px; background: linear-gradient(135deg, rgba(0,180,216,0.12), rgba(0,119,182,0.08)); color: inherit; }
+.about-hero h1 { margin: 0 0 .25rem 0; font-size: 1.9rem; }
+.about-hero p { margin: 0; color: inherit; opacity: .9; }
+
+/* Lists and cards spacing */
+.about-page h2 { margin-top: 1.25rem; margin-bottom: .6rem; }
+.about-page ul { margin: 0 0 1rem 1.15rem; }
+
+/* Gallery */
+.gallery { display: grid; gap: 0.9rem; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); margin-top: .6rem; }
+.gallery img { width: 100%; height: auto; border-radius: 10px; display: block; box-shadow: 0 6px 18px rgba(2,6,23,0.06); transition: transform .22s ease; }
+.gallery img:hover { transform: scale(1.03); }
+
+/* Respect user's color scheme by not forcing text colors */
+@media (prefers-color-scheme: dark) {
+  .about-hero { background: linear-gradient(135deg, rgba(0,160,199,0.08), rgba(0,101,138,0.06)); }
+  .gallery img { box-shadow: 0 6px 18px rgba(0,0,0,0.45); }
+}
+
+@media (max-width:420px){
+  .about-hero h1 { font-size: 1.4rem; }
+}
