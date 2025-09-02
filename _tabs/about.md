@@ -12,7 +12,6 @@ title: About
 	<p>Discover my skills, achievements, and portfolio highlights.</p>
 </section>
 
-
 ## 💡My Skills
 
 - Website, Apps, UI/UX, and Database Design & Development
@@ -40,4 +39,6 @@ Throughout my career and studies, I have applied my skills to achieve meaningful
 
 <div class="gallery">
 	<img src="/assets/img/illustrator-design1.svg" alt="Adobe Illustrator Design">
+	<img src="/assets/img/illustrator-design1.svg" alt="An NGO Website">
+
 </div>
